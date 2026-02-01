@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #b388ff, #e1bee7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.card, .celebrate {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #7b1fa2;
+}
+
+p {
+    font-size: 18px;
+    color: #4a148c;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.yes-btn {
+    background: #ab47bc;
+    color: white;
+}
+
+.no-btn {
+    background: #ce93d8;
+    color: white;
+    position: absolute;
+}
+
+.hearts {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.footer {
+    font-size: 16px;
+    margin-top: 15px;
+}
